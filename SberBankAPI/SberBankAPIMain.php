@@ -7,7 +7,7 @@
         protected $language = false;
         protected $restMethod = 'GET';
 
-        protected function setAthData($token = false, $login = false, $password = false){
+        protected function setAuthData($token = false, $login = false, $password = false){
             $this->token = $token;
             $this->login = $login;
             $this->password = $password;
