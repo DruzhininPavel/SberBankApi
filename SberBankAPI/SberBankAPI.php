@@ -170,8 +170,4 @@
             );
             return self::sendSBRequest("updateSSLCardList.do",$data,$test);
         }
-
-        public function getState(){
-            return $this;
-        }
     }
