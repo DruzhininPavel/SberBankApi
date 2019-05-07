@@ -7,7 +7,7 @@
          */
         public function __construct($token = false, $login = false, $password = false)
         {
-            self::setAthData($token, $login, $password);
+            self::setAuthData($token, $login, $password);
         }
 
         public function setToken($token)
