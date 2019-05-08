@@ -13,7 +13,7 @@ add to your php file:
 
 // some code
 
-$sb = new SberBankAPI(<TOKEN>);
+$sb = new SberBankAPI('TOKEN'); // TOKET is your sberbank token
 
 $request = array(
 
